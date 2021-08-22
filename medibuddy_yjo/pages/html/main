@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="../pages/main.css">
+<link rel="script" href="../pages/email-validation.js">
+
+</head>
+<body>
+
+ <! -- logo and medibuddy--> 
+ <! --  <input type="checkbox"> 
+
+ <div class="request"><a href="../pages/prescription">비대면처방신청</a></div>
+<br>
+<div class="userguide"><a href="../pages/userguide">이용가이드</a></div>
+<br>
+<div class="supplement"><a href="../pages/healthsupplements">영양제코디네이션</a></div>
+<br>
+<div class="askus"><a href="../pages/askus">문의사항</a></div>
+
+<img class="logobox" src="../img/logo.png">
+<img class="pillimage" src="../img/pills.png">
+
+<div id="login">
+<h1>Log In</h1>
+<div id="Email">
+<p class="emailaddressText">Email Address</p>
+ <input type="text" placeholder="abcd@gmail.com" name="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+</div>
+
+<br>
+
+<div id="password">
+<p class="passwordText">password</p>
+ <input type="text" placeholder="Enter password" name="pw" required>
+ <br>
+ <br>
+ <p class="req">다음의 조건을 맞춰 비밀번호를 만들어야 합니다: 
+ <ul >
+ <li>영문 대소문자 포함</li>
+ <li>특수기호 포함</li>
+ <li>길이는 6자 이상</li>
+ 
+ </ul></p>
+
+  <input type="checkbox">
+  <em>Send me updates</em>
+  <br>
+  <form action="../pages/login">
+    <input type="submit" value="Go to login" />
+  </form>
+
+ <form action="../pages/detail">
+    <input type="submit" value="Go to detail" />
+  </form>
+
+
+</div>
+</div>
+
+</body>
+</html>
+

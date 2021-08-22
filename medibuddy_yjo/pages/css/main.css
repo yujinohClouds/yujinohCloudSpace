@@ -1,0 +1,49 @@
+
+h1
+{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+.req{
+    width: 370px;
+background-color: orangered;
+color: white;
+
+}
+
+.pillimage{
+    border-radius: 200px 200px 0 200px;
+    margin: 3px 20px 200px 40px;
+    width: 1000px;
+    height: 400px;
+}
+.logobox{
+    width: 150px;
+    height: 150px; 
+    margin: 0px 400px 30px 1000px;
+ }
+.emailaddressText{
+
+    text-align: left;
+}
+.passwordText{
+
+    text-align:  left;
+}
+.request{
+    margin: 0 800px 30px 30px; 
+}
+.userguide{
+margin: 0 800px 30px 30px;
+}
+
+.supplement{
+    margin: 0 800px 30px 30px;
+}
+.askus{
+
+    margin: 0 800px 30px 30px;
+}
+
